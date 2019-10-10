@@ -1,0 +1,72 @@
+html, body {
+  font-family: 'Nunito', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+body.home {
+  background-image: url('../images/bg-home.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav.navbar {
+  height: 110px;
+  background-color: #182446;
+}
+
+nav.navbar .logo {
+  height: 90px;
+}
+
+.navbar-nav .nav-item {
+  padding-left: 1.2em;
+}
+
+.navbar-nav .nav-item .nav-link {
+  padding: .5rem 1rem;
+
+  border-radius: 50px;
+  border: 1px solid #fff;
+
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+
+  transition: all .3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.navbar-nav .nav-item.active .nav-link {
+  background-color: #fff;
+
+  font-weight: 700;
+  color: #182446;
+}
+
+.social .social-link {
+  color: #fff;
+  font-size: 30px;
+  padding-right: .25em;
+}
+
+.social .social-link:last-child {
+  padding-right: 0;
+}
+
+.social .social-link:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+.social .social-link i {
+  transition: all .3s;
+}
+
+.social .social-link:hover i {
+  transform: scale(1.2);
+}
