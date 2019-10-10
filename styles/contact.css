@@ -1,0 +1,40 @@
+section.contact {
+  padding: 3em 0 10em;
+  color: #fff;
+}
+
+.contact-title, .contact-sub-title {
+  text-transform: uppercase;
+}
+
+.contact-title {
+  font-weight: 700;
+}
+
+.contact-sub-title {
+  padding-top: .25em;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.contact-image {
+  margin-top: 3em;
+  width: 100%;
+  height: 300px;
+  background-image: url('../images/about-image.png');
+  background-size: cover;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.6);
+}
+
+.contact-text-wrapper {
+  padding: 0 2em;
+}
+
+.contact-text {
+  width: 670px;
+  margin-top: -10em;
+  padding: 2em;
+  background-color: #fff;
+  color: #343a40;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
