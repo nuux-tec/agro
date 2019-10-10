@@ -39,3 +39,25 @@ section.when {
   color: #343a40;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
 }
+
+@media screen and (max-width: 767px) {
+  section.when {
+    padding-bottom: 3em;
+  }
+
+  .when-sub-title {
+    font-size: 20px;
+  }
+
+  .when-text-wrapper {
+    padding: 0 .5em;
+  }
+
+  .when-image {
+    background-position: center;
+  }
+
+  .when-text {
+    margin-top: -5em;
+  }
+}

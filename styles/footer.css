@@ -68,3 +68,13 @@ nav.bottom-navbar .logo {
 .social .social-link:hover i {
   transform: scale(1.2);
 }
+
+@media screen and (max-width: 767px) {
+  .footer-upper {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+}

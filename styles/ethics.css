@@ -38,3 +38,25 @@ section.ethics {
   color: #343a40;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
 }
+
+@media screen and (max-width: 767px) {
+  section.ethics {
+    padding-bottom: 3em;
+  }
+
+  .ethics-sub-title {
+    font-size: 20px;
+  }
+
+  .ethics-text-wrapper {
+    padding: 0 .5em;
+  }
+
+  .ethics-image {
+    background-position: center;
+  }
+
+  .ethics-text {
+    margin-top: -5em;
+  }
+}
