@@ -3,25 +3,25 @@
   margin-left: -1px;
 }
 
-nav.navbar {
+nav.bottom-navbar {
   margin-top: -3px;
   height: 110px;
   background-color: #182446;
 }
 
-nav.navbar.navbar-other {
+nav.bottom-navbar.navbar-other {
   background-color: #3E4A6C;
 }
 
-nav.navbar .logo {
+nav.bottom-navbar .logo {
   height: 90px;
 }
 
-.navbar-nav .nav-item {
+.bottom-navbar .navbar-nav .nav-item {
   padding-left: 1.2em;
 }
 
-.navbar-nav .nav-item .nav-link {
+.bottom-navbar .navbar-nav .nav-item .nav-link {
   padding: .5rem 1rem;
 
   border-radius: 50px;
@@ -34,12 +34,12 @@ nav.navbar .logo {
   transition: all .3s;
 }
 
-.navbar-nav .nav-item .nav-link:hover {
+.bottom-navbar .navbar-nav .nav-item .nav-link:hover {
   color: #fff;
   transform: scale(1.1);
 }
 
-.navbar-nav .nav-item.active .nav-link {
+.bottom-navbar .navbar-nav .nav-item.active .nav-link {
   background-color: #fff;
 
   font-weight: 700;
