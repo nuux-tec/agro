@@ -4,15 +4,22 @@ html, body {
   height: 100%;
 }
 
-body.home {
+body.bg-home {
   background-image: url('../images/bg-home.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.footer-upper {
+  width: 101%;
+  opacity: 0.9;
+}
+
 nav.navbar {
+  margin-top: -2px;
   height: 110px;
   background-color: #182446;
+  opacity: 0.9;
 }
 
 nav.navbar .logo {

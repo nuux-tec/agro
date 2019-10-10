@@ -1,0 +1,16 @@
+section.home {
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  color: #fff;
+}
+
+section.home .home-title {
+  margin-top: -2em;
+  font-size: 50px;
+}
+
+section.home .sub-title {
+  font-weight: 300;
+}
