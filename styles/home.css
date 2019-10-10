@@ -1,3 +1,9 @@
+body.bg-home {
+  background-image: url('../images/bg-home.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 section.home {
   height: 100%;
   display: flex;
