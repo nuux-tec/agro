@@ -5,3 +5,7 @@
 .mobile-navbar-other {
   background-color: #0b1020;
 }
+
+.nav-item:first-child {
+  padding-left: 0 !important;
+}

@@ -7,3 +7,20 @@ html, body {
 body.other {
   background-color: #182446;
 }
+
+body.bg-other {
+  background-image: url('../images/bg-other.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fixed-logo {
+  top: 2em;
+  right: 0;
+  position: absolute;
+}
+
+.fixed-logo img {
+  height: 200px;
+}
