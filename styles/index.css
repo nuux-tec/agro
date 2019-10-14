@@ -24,3 +24,11 @@ body.bg-other {
 .fixed-logo img {
   height: 200px;
 }
+
+.fixed-logo-other {
+  top: 1em;
+}
+
+.fixed-logo-other img {
+  height: 120px;
+}
